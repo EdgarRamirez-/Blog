@@ -16,8 +16,10 @@ if($query) {
     echo "Successfully created database: " . $database;
 }
 }
-
+   else {
+   	echo "Database already exists";
        $connection->close();
-
+//*enables us to run this file and only create the database once.
+}
      ?>
       
