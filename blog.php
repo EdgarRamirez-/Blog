@@ -1,5 +1,6 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <head>
 	<title></title>
 </head>
