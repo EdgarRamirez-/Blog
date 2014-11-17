@@ -1,7 +1,7 @@
 <?php
  //*  two variables that submit data
 //* filter validates sanitizes t make sure there are no mailicios things
-  require_once(__DIR__ . "/../model/database.php");
+  require_once(__DIR__ . "/../model/config.php");
 
   $connection = new mysqli($host, $username, $password, $database);
 
